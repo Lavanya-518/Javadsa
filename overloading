@@ -1,0 +1,22 @@
+public class overloading {
+    void display()
+    {
+        System.out.println("method overloading");
+    }
+    int display(int a,int b){
+      return (a*b);
+    }
+   double display(double a,double b){
+       return (a*b);
+
+    }
+     public static void main(String[] args) {
+        overloading ob = new overloading();
+        System.out.println( ob.display(5,6)); 
+        System.out.println(ob.display(2.5,3.5));
+       
+
+
+    
+}
+}
