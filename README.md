@@ -1,2 +1,0 @@
-# Javadsa
-Javadsa Description
